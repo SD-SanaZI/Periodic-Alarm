@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "Periodic Alarm"
 include(":app")
 include(":core:dependencies")
+include(":feature:clock")
