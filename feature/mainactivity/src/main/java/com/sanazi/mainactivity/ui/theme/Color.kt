@@ -1,4 +1,4 @@
-package com.sanazi.periodicalarm.ui.theme
+package com.sanazi.mainactivity.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

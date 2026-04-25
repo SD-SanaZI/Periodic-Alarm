@@ -1,4 +1,4 @@
-package com.sanazi.periodicalarm
+package com.sanazi.mainactivity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.sanazi.periodicalarm.ui.theme.PeriodicAlarmTheme
+import com.sanazi.mainactivity.ui.theme.PeriodicAlarmTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
