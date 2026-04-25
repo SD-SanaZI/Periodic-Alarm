@@ -1,4 +1,4 @@
-package com.sanazi.periodicalarm.ui.theme
+package com.sanazi.mainactivity.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
