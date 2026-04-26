@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("kotlin-kapt")
+    alias(libs.plugins.google.devtools.ksp)
 }
 
 android {
@@ -51,7 +51,7 @@ dependencies {
     implementation(project(":feature:mainactivity"))
 
     implementation (libs.dagger)
-    kapt (libs.dagger.compiler)
+    ksp (libs.dagger.compiler)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
