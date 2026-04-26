@@ -11,7 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
 import com.sanazi.mainactivity.ui.theme.PeriodicAlarmTheme
+import com.sanazi.navigation.MainNavHost
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +22,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             PeriodicAlarmTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    val navController = rememberNavController()
+                    MainNavHost(
+                        navController,
+                        Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
                     )
                 }
             }

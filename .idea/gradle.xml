@@ -13,9 +13,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/dependencies" />
+            <option value="$PROJECT_DIR$/core/navigation" />
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/clock" />
             <option value="$PROJECT_DIR$/feature/mainactivity" />
+            <option value="$PROJECT_DIR$/feature/navigation" />
           </set>
         </option>
       </GradleProjectSettings>
